@@ -30,7 +30,7 @@ In this project we utilize the MovieLens publically available dataset to create 
 The MovieLens database itself is a collection of over 10 million ratings which have been compiled from in excess of 10,000 movies and 72,000 users.
 The dataset, though vast in its content, is minimal in its features, simply containing user and movie ID's as well as rating, genre, and the timestamp. The minimal features will hopefully provide a less expansive interpretation of the data which will aid our algorithm.
 ```{r, import course data set}
-# MOVIE LENZ SUPPLIED CODE
+# MOVIELENS SUPPLIED CODE
 
 # Create edx set, validation set (final hold-out test set)
 if(!require(tidyverse)) install.packages("tidyverse", repos = "http://cran.us.r-project.org")
